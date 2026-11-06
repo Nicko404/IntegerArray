@@ -123,7 +123,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BadCapacityException.cpp" />
     <ClCompile Include="IntegerArray.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="OutOfRangeException.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BadCapacityException.h" />
+    <ClInclude Include="IntegerArray.h" />
+    <ClInclude Include="OutOfRangeException.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
